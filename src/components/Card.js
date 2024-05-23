@@ -10,6 +10,7 @@ const Card = (props) => {
                 <img
                     className="aspect-square rounded-full w-[140px] h-[140px] z-[20]"
                     src={review.image}
+                    alt="srcimg"
                 />
                 <div className="absolute w-[140px] h-[140px] bg-violet-400 rounded-full top-[-6px] z-[-10] left-[10px]"></div>
             </div>
